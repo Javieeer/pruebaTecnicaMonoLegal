@@ -1,0 +1,23 @@
+<h1>Resumen de Facturas</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Email</th>
+            <th>Factura</th>
+            <th>Valor</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let factura of facturas">
+            <td>{{factura.cliente}}</td>
+            <td>{{factura.email}}</td>
+            <td>{{factura.numeroFactura}}</td>
+            <td>{{factura.valor}}</td>
+            <td>{{factura.estado}}</td>
+        </tr>
+    </tbody>
+</table>
