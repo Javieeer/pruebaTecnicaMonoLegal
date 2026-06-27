@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XBnClZOiWFt2NKFJpIpb4GG25H9qfNnq8tEPt2mEiFA=",
+  "Source": "InvoiceReminder.API",
+  "BasePath": "_content/InvoiceReminder.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
